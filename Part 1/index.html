@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("Racing.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+	border-color: red;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+
+button {
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-family: comic sans ms;
+  font-size: 20px;
+  width: 150px;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: double;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Racing Game</title>
+</head>
+<body onload="add();">
+<center>
+<h1>Racing Game</h1>
+
+<h3 style="color: yellow;">Use Arrow Keys for the Red Car and Use WASD Keys for Green Car</h3>
+
+<h1>Game Status: <span id="game_status"></span></h1>
+<br><br>
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<h4>
+	<b class="text-danger" style="color: black;">NOTE : </b> IF CARS ARE NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+
+<a href=""<button>CHANGE CARS</button>>
+
+<br><br>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
